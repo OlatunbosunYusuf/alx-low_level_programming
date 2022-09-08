@@ -1,5 +1,4 @@
 #!/bin/bash
-gcc
 #include <stdio.h>
 /* main- Serves as the entry point for the program */
 /* Return: By default returns zero if no error otherwise return non-zero value.*/
