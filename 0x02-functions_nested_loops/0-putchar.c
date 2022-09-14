@@ -4,13 +4,13 @@
 * local variable definition,prints _putchar followed by a new line
 * Return:0
 */
-char text[10] = " _putchar"; 
+char letter = " _putchar"; 
 
 int main(void)
 {
 
 
-putchar('\n');
+putchar("value of letter \n", letter);
 
 return 0;
 
