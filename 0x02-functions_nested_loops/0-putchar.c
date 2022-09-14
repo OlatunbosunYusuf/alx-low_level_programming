@@ -4,15 +4,19 @@
 * local variable definition,prints _putchar followed by a new line
 * Return:0
 */
-char letter = " _putchar"; 
+extern int = "_putchar"; 
 
 int main(void)
 {
+int i = 0;
+for (i =0; i < 8; i++)
 
+{
+_putchar(int[i]);
+}
+putchar('\n');
 
-putchar("value of letter \n", letter);
-
-return 0;
+return (0);
 
 }
 
