@@ -1,19 +1,32 @@
-#include"main.h"
+#include "stdio.h"
 /**
-* Main-the entry point to the program
-* local variable definition,prints _putchar followed by a new line
-* Reture: 0
-*/
+ *
+ * main - program that prints _putchar
+ *Return: init
+ */
 int main(void)
+	
 {
-	char text[10] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 8; i++)
-{
-_putchar(text[i]);
-}
-_putchar('\n');
+	
+	int n = 0;
+	
+	char str_put[8] = "_putchar";
+	
+	
+	
+	while (n < 8)
+		
+	{
+		
+		putchar(str_put[n]);
+		
+		n += 1;
+		
+	}
+	
+	putchar('\n');
+	
+	return (0);_putchar('\n');
 
 return (0);
 
