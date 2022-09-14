@@ -4,9 +4,14 @@
 * local variable definition,prints _putchar followed by a new line
 * Return:0
 */
-int main(void)
+extern int a;
 
-_putchar("_putchar\n");
+int main(void)
+{
+int a;
+a = _putchar;
+
+_putchar("value of a \n", a);
 
 return 0;
 
