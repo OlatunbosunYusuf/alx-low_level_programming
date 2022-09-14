@@ -10,7 +10,7 @@ int main(void)
 {
 
 
-_putchar("value of text:%d \n");
+_putchar('\n');
 
 return 0;
 
