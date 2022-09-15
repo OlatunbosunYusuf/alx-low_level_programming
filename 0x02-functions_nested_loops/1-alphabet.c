@@ -14,5 +14,6 @@ putchar(l);
 l += 1;
 }
 putchar(10);
-print_alphabet();
+void print_alphabet();
+
 }
