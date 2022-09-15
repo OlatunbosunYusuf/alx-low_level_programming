@@ -10,7 +10,7 @@ int l = 'a';
 while (l <= 'z')
 {
 putchar (l);
-i += 1;
+l += 1;
 }
 putchar (10);
 }
