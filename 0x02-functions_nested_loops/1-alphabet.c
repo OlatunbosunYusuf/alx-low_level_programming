@@ -4,14 +4,14 @@
 *You can only use _putchar twice in your code
 *Return:nothing
 */
-void printAlpha(void)
+void print_alphabet(void)
 {
+clrscr();
 
-int l = 'a';
-while (l <= 'z')
-{
-putchar (l);
-l += 1;
-}
-putchar (10);
+int ch;
+for (ch= 'a'; ch<= 'z'; ch++)
+
+putchar (ch);
+
+putchar ('\n');
 }
