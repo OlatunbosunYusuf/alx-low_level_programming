@@ -4,8 +4,11 @@
 *You can only use _putchar twice in your code
 *Return:nothing
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
+int main(void)
+print_alphabet();
+
 char letter
 letter = 'a'; 
 while (letter <= 'z';)
