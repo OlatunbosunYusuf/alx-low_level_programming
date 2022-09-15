@@ -1,2 +1,1 @@
-#!/bin/bash 
-alx-debugging-readme.md
+Alx-debugging
