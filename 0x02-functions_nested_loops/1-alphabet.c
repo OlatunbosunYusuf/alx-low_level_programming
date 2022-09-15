@@ -15,6 +15,4 @@ l += 1;
 }
 putchar(10);
 print_alphabet();
-
-return (0);
 }
