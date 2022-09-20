@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *rev_string - Reverse a string 
- *@s: The string to be modified 
- *
- *Return: void
- */
+* rev_string - Reverse a string 
+* @s: The string to be modified 
+*
+*Return: void
+*/
 void rev_string(char *s)
 {
 int count = 0, i, j;
