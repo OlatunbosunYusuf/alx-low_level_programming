@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * rev_string - Reverse a string 
- * @s: The string to be modified 
+ *rev_string - Reverse a string 
+ *@s: The string to be modified 
  *
- * Return: void 
+ *Return: void
  */
 void rev_string(char *s)
 {
@@ -17,7 +17,7 @@ while (count >= '\0')
 if (s[count] == '\0')
 	break;
 count++;
-}	
+}
 for (i = 0; i < (count - 1); i++)
 {
 for (j = i + 1; j > 0; j--)
@@ -28,4 +28,3 @@ temp = *(str + j);
 }
 }
 }
-
