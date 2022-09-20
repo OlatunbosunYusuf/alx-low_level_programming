@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - Prints n elements of an array of integers
  * @a: Array of integers
@@ -12,12 +13,12 @@ int j;
 
 for (j = 0; j < n; j++)
 {
-_putchar("%d", a[j]);
+printf("%d", a[j]);
 
 if (j != (n - 1))
 {
-_putchar(', ');
+printf(", ");
 }
 }
-_putchar('\n');
+printf("\n");
 }
