@@ -4,7 +4,7 @@
 *@c:the character to print
 *
 *Return:On success 1
-*On fail -1 and errno is set appropirately 
+*On fail- 1 and errno is set appropirately 
 */
 int _putchar(char c)
 {
