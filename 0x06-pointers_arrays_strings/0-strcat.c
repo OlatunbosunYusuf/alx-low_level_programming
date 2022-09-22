@@ -16,13 +16,13 @@ while (*(dest + count) != '\0')
 {
 count++;
 }
-whlie (count2 >= 0)
+while (count2 >= 0)
 {
 *(dest + count) = *(src + count2);
 if (*(src + count2) == '\0')
 	break:
 	count++;
-        count2++;
+count2++;
 }
 return (dest);
 }
