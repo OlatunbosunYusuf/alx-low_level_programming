@@ -23,7 +23,7 @@ while (d > 9)
 d /= 10;
 count *= 10;
 }
-for (; count >= 1; ccount /= 10)
+for (; count >= 1; count /= 10)
 {
 putchar(((m / count) % 10) + 48);
 }
