@@ -3,11 +3,10 @@
  * _strcat - Concatenates two strings
  * @dest: Destination
  * @src: source
- *
  * @n: Amount of bytes used from src
  * Return: The pointer to dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
